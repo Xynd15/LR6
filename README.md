@@ -46,6 +46,37 @@ _Цель лабораторной работы_: изучение базовы�
 
 14.![Начать оформлять отчёт в файле README.md ](Photo\Оформление_отчёта.png)
 
-15.![Получить историю операций в форматированном виде ](Photo\.png)
+15.![Получить историю операций в форматированном виде ](Photo\История_операций.png)
 
-16.![Отправить локальные изменения в сетевое хранилище GitHub](Photo\.png)
+### Лог команд
+```
+git config --global user.name "4541в_ВельковВА"
+
+git config --global user.email Xynd15@yandex.ru
+
+git config --list
+
+git clone https://github.com/Xynd15/LR6
+
+git pull origin
+
+git log --oneline --graph --all
+
+git log --patch -1
+
+git add File
+
+git commit -m 'Мировое господство'
+
+git commit -m 'Добавлено пояснение'
+
+git reset HEAD File
+
+git checkout -b Otchot
+
+git log --pretty=format:"%h - %ad - %an : %s" --date=short
+
+git push origin Otchot
+
+git push origin master
+```
